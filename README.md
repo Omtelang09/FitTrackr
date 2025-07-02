@@ -30,6 +30,10 @@
 ## 📸 Screenshots
 
 <details>
+  <summary>Home Page</summary>
+  <img src="screenshots/home.png" width="600"/>
+</details>
+<details>
   <summary>Dashboard</summary>
   <img src="screenshots/dashboard1.png" width="600"/>
   <img src="screenshots/dashboard2.png" width="600"/>
@@ -41,7 +45,11 @@
 
 <details>
   <summary>Exercise Guide</summary>
-  <img src="screenshots/exercise-guide.png" width="600"/>
+  <img src="screenshots/exerciseguide.png" width="600"/>
+</details>
+<details>
+  <summary>FAQ</summary>
+  <img src="screenshots/faq.png" width="600"/>
 </details>
 
 ---
