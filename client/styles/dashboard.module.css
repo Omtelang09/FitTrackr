@@ -1,0 +1,180 @@
+.dashboardWrapper {
+  padding: 2.5rem;
+  min-height: 100vh;
+  background-color: #f9fafb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.topBar h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.logBtn {
+  background-color: #38a169;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logBtn:hover {
+  background-color: #2f855a;
+}
+
+.logoutBtn {
+  background-color: #e53e3e;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logoutBtn:hover {
+  background-color: #c53030;
+}
+
+.customExerciseSection {
+  background-color: #fff;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.customExerciseSection h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #2b6cb0;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.form select,
+.form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.375rem;
+  border: 1px solid #cbd5e0;
+  min-width: 140px;
+}
+
+.form input {
+  width: 80px;
+}
+
+.form button {
+  background-color: #3182ce;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.form button:hover {
+  background-color: #2b6cb0;
+}
+
+.exerciseList h4 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #4a5568;
+}
+
+.exerciseList ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  color: #2d3748;
+}
+.exerciseItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0;
+}
+
+.deleteBtn {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.deleteBtn:hover {
+  background-color: #e60000;
+}
+
+.resetBtn {
+  margin-top: 1rem;
+  background-color: #ef4444; /* red-500 */
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.resetBtn:hover {
+  background-color: #dc2626; /* red-600 */
+}
+
+
+.chartCard {
+  background-color: #fff;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.chartCard h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #2d3748;
+}
+
+.loading {
+  padding: 2rem;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #4a5568;
+}

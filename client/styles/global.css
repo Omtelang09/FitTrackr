@@ -1,0 +1,266 @@
+body {
+  font-family: sans-serif;
+  background-color: white;
+  color: #1a202c; /* gray-900 */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3b82f6;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+nav .logo span {
+  color: #3b82f6; /* blue-500 */
+}
+
+nav ul {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* Dropdown styling */
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: black;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding: 0.5rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+  min-width: 160px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 0.5rem 1rem;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.hero {
+  background-color: black;
+  color: white;
+  padding: 5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  margin-left: 8cm;
+}
+
+.hero ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  margin-left: 8cm;
+}
+
+.hero ul li {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  
+}
+
+.hero button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 8cm;
+}
+
+.hero button:hover {
+  background-color: #2563eb;
+}
+
+.hero img {
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  max-width: 1000px;
+  margin-right: 5cm;
+}
+
+.motivation {
+  background-color: #3b82f6;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.features {
+  background-color: #f7fafc; /* gray-100 */
+  padding: 5rem 1.5rem;
+  text-align: center;
+}
+
+.feature-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .feature-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+.feature-grid div {
+  font-size: 1rem;
+}
+
+.feature-grid div .emoji {
+  font-size: 2.5rem;
+  color: #3b82f6;
+  margin-bottom: 0.5rem;
+}
+
+.feature-grid h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.feature-grid p {
+  color: #4a5568; /* gray-600 */
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 2.5rem 1.5rem;
+}
+
+.footer-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+footer h4 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  font-size: 0.875rem;
+  color: #d1d5db; /* gray-300 */
+  margin-bottom: 0.25rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul li  {
+  text-decoration: none;
+  color: white;
+}
+
+footer p {
+  color:white;
+  font-size: 0.875rem;
+}
+
+
+@media (min-width: 768px) {
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* Adjust logo */
+.logo-img {
+  height: 60px;
+  object-fit: contain;
+}
+
+/* Make hero section white instead of black */
+.hero-white {
+  background-color: white;
+  color: black;
+}
+
+.hero-white button {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.hero-white button:hover {
+  background-color: #2563eb;
+}
+

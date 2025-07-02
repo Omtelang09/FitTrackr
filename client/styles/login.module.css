@@ -1,0 +1,78 @@
+.loginWrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7fafc;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginBox {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.loginBox h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2d3748;
+}
+
+.loginBox input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.loginBox input:focus {
+  border-color: #3182ce;
+  outline: none;
+}
+
+.loginBox button {
+  width: 100%;
+  background-color: #3182ce;
+  color: white;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.loginBox button:hover {
+  background-color: #2b6cb0;
+}
+
+.signupLink {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #3b82f6;
+}
+
+.signupLink a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signupLink a:hover {
+  text-decoration: underline;
+}

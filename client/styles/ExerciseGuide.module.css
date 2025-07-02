@@ -1,0 +1,66 @@
+
+.guideWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* horizontal centering */
+  justify-content: center;  /* vertical centering */
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+}
+
+
+.card {
+  display: flex;
+  gap: 1rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  align-items: center;
+
+  width: 15cm;
+  height: 6cm;
+
+  box-sizing: border-box;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center cards horizontally */
+  gap: 2rem;            /* Vertical spacing between cards */
+  margin-top: 2rem;
+}
+
+.imageSection {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.imageSection img {
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.detailsSection {
+  margin-left: 2cm;
+  gap: 0.25rem;
+}
+
+.exerciseTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2980b9;
+}
+
+

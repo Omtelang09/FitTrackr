@@ -1,0 +1,88 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #2d3748;
+  text-align: center;
+}
+
+.faqList {
+  border-top: 1px solid #e2e8f0;
+}
+
+.faqItem {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1rem 0;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.symbol {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #4a5568;
+}
+
+.answer {
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  color: #4a5568;
+  line-height: 1.5;
+}
+
+.contactBox {
+  margin-top: 3rem;
+  padding: 2rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  text-align: center;
+  background-color: #f7fafc;
+}
+
+.contactBox h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+}
+
+.contactBox p {
+  margin-bottom: 1rem;
+  color: #4a5568;
+}
+
+.emailBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.emailBox a {
+  color: #3182ce;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.emailBox a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+}
+
