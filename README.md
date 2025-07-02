@@ -31,9 +31,12 @@
 
 <details>
   <summary>Dashboard</summary>
-  <img src="screenshots/dashboard.png" width="600"/>
+  <img src="screenshots/dashboard1.png" width="600"/>
 </details>
-
+<details>
+  <summary>Dashboard</summary>
+  <img src="screenshots/dashboard2.png" width="600"/>
+</details>
 <details>
   <summary>Login Page</summary>
   <img src="screenshots/login.png" width="600"/>
