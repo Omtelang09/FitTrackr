@@ -32,9 +32,6 @@
 <details>
   <summary>Dashboard</summary>
   <img src="screenshots/dashboard1.png" width="600"/>
-</details>
-<details>
-  <summary>Dashboard</summary>
   <img src="screenshots/dashboard2.png" width="600"/>
 </details>
 <details>
